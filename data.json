@@ -1,0 +1,811 @@
+{
+  "categories": [
+    {
+      "id": "foundation-models",
+      "name": "基盤モデル",
+      "nameEn": "Foundation Models",
+      "emoji": "🧠",
+      "color": "#ff2d78",
+      "tools": [
+        {
+          "name": "OpenAI",
+          "description": "GPT-5、o3シリーズ。最先端の大規模言語モデルプロバイダー",
+          "url": "https://openai.com",
+          "domain": "openai.com"
+        },
+        {
+          "name": "Anthropic",
+          "description": "Claude 4シリーズ。安全性重視の先進的大規模言語モデル",
+          "url": "https://anthropic.com",
+          "domain": "anthropic.com"
+        },
+        {
+          "name": "Google DeepMind",
+          "description": "Gemini 3。マルチモーダル対応の次世代AIモデル",
+          "url": "https://deepmind.google",
+          "domain": "deepmind.google"
+        },
+        {
+          "name": "Meta AI",
+          "description": "Llama 4。最大規模のオープンソース基盤モデル群",
+          "url": "https://ai.meta.com",
+          "domain": "ai.meta.com"
+        },
+        {
+          "name": "Mistral AI",
+          "description": "Mistral Large、Codestral。欧州発の高性能LLM",
+          "url": "https://mistral.ai",
+          "domain": "mistral.ai"
+        },
+        {
+          "name": "xAI",
+          "description": "Grok 3。リアルタイム情報対応のLLM",
+          "url": "https://x.ai",
+          "domain": "x.ai"
+        },
+        {
+          "name": "DeepSeek",
+          "description": "DeepSeek-V3/R1。中国発コスト効率の高いLLM",
+          "url": "https://deepseek.com",
+          "domain": "deepseek.com"
+        },
+        {
+          "name": "Cohere",
+          "description": "Command R+。企業向けRAG特化大規模言語モデル",
+          "url": "https://cohere.com",
+          "domain": "cohere.com"
+        },
+        {
+          "name": "AI21 Labs",
+          "description": "Jamba。ハイブリッドアーキテクチャ採用のLLM",
+          "url": "https://ai21.com",
+          "domain": "ai21.com"
+        },
+        {
+          "name": "Alibaba (Qwen)",
+          "description": "Qwen 3。アリババ発のオープンソース大規模言語モデル",
+          "url": "https://qwenlm.github.io",
+          "domain": "qwenlm.github.io"
+        }
+      ]
+    },
+    {
+      "id": "image-video",
+      "name": "画像・動画生成",
+      "nameEn": "Image & Video Generation",
+      "emoji": "🖼️",
+      "color": "#ff6b00",
+      "tools": [
+        {
+          "name": "Midjourney",
+          "description": "プロンプトから高品質アート画像を生成するAI",
+          "url": "https://midjourney.com",
+          "domain": "midjourney.com"
+        },
+        {
+          "name": "OpenAI DALL-E",
+          "description": "DALL-E、GPT-4o画像生成。テキストから画像を生成",
+          "url": "https://openai.com",
+          "domain": "openai.com"
+        },
+        {
+          "name": "Stability AI",
+          "description": "Stable Diffusion。オープンソース画像生成モデルの先駆者",
+          "url": "https://stability.ai",
+          "domain": "stability.ai"
+        },
+        {
+          "name": "Flux (Black Forest Labs)",
+          "description": "高解像度・高品質な次世代画像生成モデル",
+          "url": "https://blackforestlabs.ai",
+          "domain": "blackforestlabs.ai"
+        },
+        {
+          "name": "Google (Veo / Imagen)",
+          "description": "Veo 2、Imagen 3。Googleの動画・画像生成AI",
+          "url": "https://deepmind.google",
+          "domain": "deepmind.google"
+        },
+        {
+          "name": "Runway",
+          "description": "Gen-3。プロフェッショナル向け動画生成AIプラットフォーム",
+          "url": "https://runwayml.com",
+          "domain": "runwayml.com"
+        },
+        {
+          "name": "Kling (Kuaishou)",
+          "description": "快手発の高品質・高精細動画生成AI",
+          "url": "https://klingai.com",
+          "domain": "klingai.com"
+        },
+        {
+          "name": "Pika",
+          "description": "テキスト・画像から動画を生成するAIスタジオ",
+          "url": "https://pika.art",
+          "domain": "pika.art"
+        },
+        {
+          "name": "Luma AI",
+          "description": "Dream Machine。フォトリアルな動画生成AI",
+          "url": "https://lumalabs.ai",
+          "domain": "lumalabs.ai"
+        },
+        {
+          "name": "Ideogram",
+          "description": "テキスト付き高品質画像生成AI。タイポグラフィ対応",
+          "url": "https://ideogram.ai",
+          "domain": "ideogram.ai"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding",
+      "name": "コーディングAI",
+      "nameEn": "AI Coding",
+      "emoji": "💻",
+      "color": "#00ff88",
+      "tools": [
+        {
+          "name": "GitHub Copilot",
+          "description": "GitHubのAIペアプログラマー。コード補完・生成",
+          "url": "https://github.com/features/copilot",
+          "domain": "github.com"
+        },
+        {
+          "name": "Cursor",
+          "description": "AI搭載コードエディタの最前線。VSCode互換",
+          "url": "https://cursor.com",
+          "domain": "cursor.com"
+        },
+        {
+          "name": "OpenAI Codex CLI",
+          "description": "ターミナルで動くOpenAIコーディングエージェント",
+          "url": "https://github.com/openai/codex",
+          "domain": "openai.com"
+        },
+        {
+          "name": "Windsurf (Codeium)",
+          "description": "Codeium製AIファーストIDE。Cascadeエージェント搭載",
+          "url": "https://windsurf.com",
+          "domain": "windsurf.com"
+        },
+        {
+          "name": "Devin (Cognition)",
+          "description": "Cognition製完全自律型ソフトウェアエンジニアAI",
+          "url": "https://devin.ai",
+          "domain": "devin.ai"
+        },
+        {
+          "name": "Replit Agent",
+          "description": "ブラウザベースのAIコーディング・デプロイ環境",
+          "url": "https://replit.com",
+          "domain": "replit.com"
+        },
+        {
+          "name": "Tabnine",
+          "description": "プライバシー重視のエンタープライズAIコード補完",
+          "url": "https://tabnine.com",
+          "domain": "tabnine.com"
+        },
+        {
+          "name": "Sourcegraph Cody",
+          "description": "大規模コードベース対応AIコーディングアシスタント",
+          "url": "https://sourcegraph.com/cody",
+          "domain": "sourcegraph.com"
+        },
+        {
+          "name": "Augment Code",
+          "description": "エンタープライズ向けAIコーディング支援プラットフォーム",
+          "url": "https://augmentcode.com",
+          "domain": "augmentcode.com"
+        },
+        {
+          "name": "Claude Code",
+          "description": "Anthropic製ターミナルベースAIコーディングエージェント",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "domain": "anthropic.com"
+        }
+      ]
+    },
+    {
+      "id": "ai-agents",
+      "name": "AIエージェント",
+      "nameEn": "AI Agents",
+      "emoji": "🤖",
+      "color": "#00cfff",
+      "tools": [
+        {
+          "name": "OpenAI Operator",
+          "description": "ウェブ上のタスクを自律実行するAIエージェント",
+          "url": "https://openai.com",
+          "domain": "openai.com"
+        },
+        {
+          "name": "Claude (Computer Use)",
+          "description": "コンピュータを直接操作できるAnthropicのAIエージェント",
+          "url": "https://anthropic.com",
+          "domain": "anthropic.com"
+        },
+        {
+          "name": "Google Gemini (Project Mariner)",
+          "description": "ブラウザを操作するGoogleの次世代AIエージェント",
+          "url": "https://deepmind.google",
+          "domain": "deepmind.google"
+        },
+        {
+          "name": "Manus AI",
+          "description": "汎用タスク実行型AIエージェントプラットフォーム",
+          "url": "https://manus.im",
+          "domain": "manus.im"
+        },
+        {
+          "name": "AutoGPT",
+          "description": "目標駆動型の自律AIエージェントフレームワーク",
+          "url": "https://agpt.co",
+          "domain": "agpt.co"
+        },
+        {
+          "name": "CrewAI",
+          "description": "マルチエージェント協調フレームワーク",
+          "url": "https://crewai.com",
+          "domain": "crewai.com"
+        },
+        {
+          "name": "LangGraph (LangChain)",
+          "description": "LangChain製ステートフルエージェントフレームワーク",
+          "url": "https://langchain.com",
+          "domain": "langchain.com"
+        },
+        {
+          "name": "Microsoft AutoGen",
+          "description": "Microsoft製マルチエージェント会話フレームワーク",
+          "url": "https://microsoft.github.io/autogen",
+          "domain": "microsoft.com"
+        },
+        {
+          "name": "OpenClaw",
+          "description": "オープンソースAIエージェントプラットフォーム",
+          "url": "https://openclaw.ai",
+          "domain": "openclaw.ai"
+        }
+      ]
+    },
+    {
+      "id": "ai-search",
+      "name": "AI検索",
+      "nameEn": "AI Search",
+      "emoji": "🔍",
+      "color": "#ffe600",
+      "tools": [
+        {
+          "name": "Perplexity",
+          "description": "AI搭載リアルタイム検索エンジン。引用付き回答",
+          "url": "https://perplexity.ai",
+          "domain": "perplexity.ai"
+        },
+        {
+          "name": "Google AI Overviews",
+          "description": "AI Overview搭載の次世代Google検索",
+          "url": "https://google.com",
+          "domain": "google.com"
+        },
+        {
+          "name": "OpenAI SearchGPT",
+          "description": "ChatGPT統合のウェブ検索機能",
+          "url": "https://openai.com",
+          "domain": "openai.com"
+        },
+        {
+          "name": "You.com",
+          "description": "AIパーソナライズ検索エンジン。マルチモデル対応",
+          "url": "https://you.com",
+          "domain": "you.com"
+        },
+        {
+          "name": "Exa",
+          "description": "意味理解型AIウェブ検索API。開発者向け",
+          "url": "https://exa.ai",
+          "domain": "exa.ai"
+        },
+        {
+          "name": "Brave Search AI",
+          "description": "プライバシー保護型AI検索エンジン",
+          "url": "https://brave.com",
+          "domain": "brave.com"
+        },
+        {
+          "name": "Arc Search",
+          "description": "モバイル向けAIブラウザ検索。自動ページ要約",
+          "url": "https://arc.net",
+          "domain": "arc.net"
+        }
+      ]
+    },
+    {
+      "id": "voice-speech",
+      "name": "音声・TTS",
+      "nameEn": "Voice & Speech",
+      "emoji": "🗣️",
+      "color": "#dd00ff",
+      "tools": [
+        {
+          "name": "ElevenLabs",
+          "description": "超リアルな音声合成・音声クローニングAI",
+          "url": "https://elevenlabs.io",
+          "domain": "elevenlabs.io"
+        },
+        {
+          "name": "OpenAI Voice",
+          "description": "Whisper、リアルタイム音声API。多言語対応",
+          "url": "https://openai.com",
+          "domain": "openai.com"
+        },
+        {
+          "name": "Google NotebookLM",
+          "description": "NotebookLM Audio。コンテンツからポッドキャスト生成",
+          "url": "https://notebooklm.google",
+          "domain": "notebooklm.google"
+        },
+        {
+          "name": "AssemblyAI",
+          "description": "高精度音声認識・話者分離・感情分析プラットフォーム",
+          "url": "https://assemblyai.com",
+          "domain": "assemblyai.com"
+        },
+        {
+          "name": "Deepgram",
+          "description": "リアルタイム音声文字起こしAPIプラットフォーム",
+          "url": "https://deepgram.com",
+          "domain": "deepgram.com"
+        },
+        {
+          "name": "Play.ai",
+          "description": "次世代テキスト音声変換・音声エージェントプラットフォーム",
+          "url": "https://play.ai",
+          "domain": "play.ai"
+        },
+        {
+          "name": "Cartesia",
+          "description": "低遅延・高品質な音声合成AIエンジン",
+          "url": "https://cartesia.ai",
+          "domain": "cartesia.ai"
+        },
+        {
+          "name": "Sesame (CSM)",
+          "description": "自然な会話を実現する音声AIモデル",
+          "url": "https://sesame.com",
+          "domain": "sesame.com"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-ai",
+      "name": "エンタープライズAI",
+      "nameEn": "Enterprise AI",
+      "emoji": "🏢",
+      "color": "#4477ff",
+      "tools": [
+        {
+          "name": "Palantir AIP",
+          "description": "企業データ統合AI運用プラットフォーム",
+          "url": "https://palantir.com",
+          "domain": "palantir.com"
+        },
+        {
+          "name": "Scale AI",
+          "description": "AI学習用データアノテーション・評価プラットフォーム",
+          "url": "https://scale.com",
+          "domain": "scale.com"
+        },
+        {
+          "name": "Databricks (Mosaic)",
+          "description": "統合データ・AIプラットフォーム。MosaicAI統合",
+          "url": "https://databricks.com",
+          "domain": "databricks.com"
+        },
+        {
+          "name": "Snowflake Cortex",
+          "description": "データクラウド上でLLMを直接活用するAI機能",
+          "url": "https://snowflake.com",
+          "domain": "snowflake.com"
+        },
+        {
+          "name": "Salesforce Einstein",
+          "description": "CRM統合エンタープライズAI。Agentforce搭載",
+          "url": "https://salesforce.com",
+          "domain": "salesforce.com"
+        },
+        {
+          "name": "AWS Bedrock",
+          "description": "AmazonのマネージドLLMサービス。複数モデル対応",
+          "url": "https://aws.amazon.com/bedrock",
+          "domain": "aws.amazon.com"
+        },
+        {
+          "name": "Azure AI",
+          "description": "MicrosoftのエンタープライズAIサービス群。OpenAI統合",
+          "url": "https://azure.microsoft.com/ai",
+          "domain": "azure.microsoft.com"
+        },
+        {
+          "name": "Google Vertex AI",
+          "description": "GCP上の統合AI/MLプラットフォーム",
+          "url": "https://cloud.google.com/vertex-ai",
+          "domain": "cloud.google.com"
+        }
+      ]
+    },
+    {
+      "id": "ai-infra",
+      "name": "AIインフラ・チップ",
+      "nameEn": "AI Infrastructure",
+      "emoji": "🛠️",
+      "color": "#ff3344",
+      "tools": [
+        {
+          "name": "NVIDIA",
+          "description": "H100、B200 GPU。AIコンピューティングの覇者",
+          "url": "https://nvidia.com",
+          "domain": "nvidia.com"
+        },
+        {
+          "name": "AMD",
+          "description": "MI300X。NVIDIA対抗のAI向けGPUアクセラレータ",
+          "url": "https://amd.com",
+          "domain": "amd.com"
+        },
+        {
+          "name": "Groq",
+          "description": "LPUによる超高速LLM推論エンジン。低遅延特化",
+          "url": "https://groq.com",
+          "domain": "groq.com"
+        },
+        {
+          "name": "Cerebras",
+          "description": "WSE-3。ウェーハスケールAIチップで超並列計算",
+          "url": "https://cerebras.ai",
+          "domain": "cerebras.ai"
+        },
+        {
+          "name": "Google TPU",
+          "description": "TPU v6。Google独自のAI専用アクセラレータ",
+          "url": "https://cloud.google.com/tpu",
+          "domain": "cloud.google.com"
+        },
+        {
+          "name": "Intel Gaudi",
+          "description": "Gaudi 3。インテルのAIトレーニングアクセラレータ",
+          "url": "https://intel.com",
+          "domain": "intel.com"
+        },
+        {
+          "name": "AWS Trainium",
+          "description": "TrainiumでAI学習コストを大幅削減するAWSチップ",
+          "url": "https://aws.amazon.com",
+          "domain": "aws.amazon.com"
+        },
+        {
+          "name": "SambaNova",
+          "description": "エンタープライズ向けAI推論・学習アクセラレータ",
+          "url": "https://sambanova.ai",
+          "domain": "sambanova.ai"
+        }
+      ]
+    },
+    {
+      "id": "local-edge",
+      "name": "ローカルAI・エッジ",
+      "nameEn": "Local & Edge AI",
+      "emoji": "📱",
+      "color": "#00ffcc",
+      "tools": [
+        {
+          "name": "Ollama",
+          "description": "ローカルでLLMを簡単実行するオープンソースツール",
+          "url": "https://ollama.com",
+          "domain": "ollama.com"
+        },
+        {
+          "name": "LM Studio",
+          "description": "GUIでローカルLLMを管理・実行するデスクトップアプリ",
+          "url": "https://lmstudio.ai",
+          "domain": "lmstudio.ai"
+        },
+        {
+          "name": "Apple Intelligence",
+          "description": "Apple製品統合のオンデバイスAI。プライバシー重視",
+          "url": "https://apple.com",
+          "domain": "apple.com"
+        },
+        {
+          "name": "Jan",
+          "description": "オフライン対応オープンソースAIアシスタント",
+          "url": "https://jan.ai",
+          "domain": "jan.ai"
+        },
+        {
+          "name": "GPT4All",
+          "description": "PC上で動くプライバシー重視のローカルLLM",
+          "url": "https://gpt4all.io",
+          "domain": "gpt4all.io"
+        },
+        {
+          "name": "llama.cpp",
+          "description": "CPUでLlamaモデルを実行するC++推論ライブラリ",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "domain": "github.com"
+        },
+        {
+          "name": "MLX (Apple)",
+          "description": "Apple Silicon最適化機械学習フレームワーク",
+          "url": "https://github.com/ml-explore/mlx",
+          "domain": "github.com"
+        },
+        {
+          "name": "Unsloth Studio",
+          "description": "ノーコードでLLMファインチューニング。VRAM70%削減、2倍速トレーニング",
+          "url": "https://unsloth.ai",
+          "domain": "unsloth.ai"
+        }
+      ]
+    },
+    {
+      "id": "mcp-dev",
+      "name": "MCPサーバー (開発ツール)",
+      "nameEn": "MCP Servers (Dev Tools)",
+      "emoji": "🔌",
+      "color": "#aa44ff",
+      "tools": [
+        {
+          "name": "GitHub MCP",
+          "description": "GitHubリポジトリ・PR・Issue操作MCPサーバー",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "domain": "github.com"
+        },
+        {
+          "name": "Playwright MCP",
+          "description": "ブラウザ自動化・スクレイピング用MCPサーバー",
+          "url": "https://github.com/anthropics/playwright-mcp",
+          "domain": "playwright.dev"
+        },
+        {
+          "name": "PostgreSQL MCP",
+          "description": "PostgreSQLデータベース接続・クエリMCPサーバー",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "domain": "postgresql.org"
+        },
+        {
+          "name": "Docker MCP",
+          "description": "Dockerコンテナ管理・実行MCPサーバー",
+          "url": "https://github.com/docker/mcp-server",
+          "domain": "docker.com"
+        },
+        {
+          "name": "Linear MCP",
+          "description": "Linear課題管理・プロジェクト操作MCPサーバー",
+          "url": "https://github.com/linear/linear-mcp",
+          "domain": "linear.app"
+        },
+        {
+          "name": "Sentry MCP",
+          "description": "Sentryエラー追跡・モニタリング操作MCPサーバー",
+          "url": "https://github.com/getsentry/sentry-mcp",
+          "domain": "sentry.io"
+        },
+        {
+          "name": "Vercel MCP",
+          "description": "Vercelデプロイ・プロジェクト管理MCPサーバー",
+          "url": "https://github.com/vercel/mcp",
+          "domain": "vercel.com"
+        }
+      ]
+    },
+    {
+      "id": "mcp-data",
+      "name": "MCPサーバー (データ・生産性)",
+      "nameEn": "MCP Servers (Data & Productivity)",
+      "emoji": "🔌",
+      "color": "#ff44aa",
+      "tools": [
+        {
+          "name": "Google Drive MCP",
+          "description": "Google Driveファイル操作・検索MCPサーバー",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "domain": "drive.google.com"
+        },
+        {
+          "name": "Google Maps MCP",
+          "description": "地図・場所情報・経路検索MCPサーバー",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "domain": "maps.google.com"
+        },
+        {
+          "name": "Slack MCP",
+          "description": "Slackメッセージ送受信・チャンネル操作MCPサーバー",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "domain": "slack.com"
+        },
+        {
+          "name": "Notion MCP",
+          "description": "NotionページDB作成・編集・検索MCPサーバー",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "domain": "notion.so"
+        },
+        {
+          "name": "Filesystem MCP",
+          "description": "ローカルファイルシステム読み書きMCPサーバー",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "domain": "github.com"
+        },
+        {
+          "name": "Memory MCP",
+          "description": "知識グラフ型永続メモリMCPサーバー",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "domain": "github.com"
+        },
+        {
+          "name": "Context7 MCP",
+          "description": "最新ライブラリドキュメント取得MCPサーバー",
+          "url": "https://github.com/context7/context7-mcp",
+          "domain": "context7.com"
+        }
+      ]
+    },
+    {
+      "id": "mcp-platforms",
+      "name": "MCPプラットフォーム",
+      "nameEn": "MCP Platforms",
+      "emoji": "🔌",
+      "color": "#44aaff",
+      "tools": [
+        {
+          "name": "Anthropic (MCP Creator)",
+          "description": "Model Context Protocol(MCP)の創設・仕様策定者",
+          "url": "https://anthropic.com",
+          "domain": "anthropic.com"
+        },
+        {
+          "name": "OpenAI (MCP Adopter)",
+          "description": "MCPを公式採用した最大のAIプロバイダー",
+          "url": "https://openai.com",
+          "domain": "openai.com"
+        },
+        {
+          "name": "Cloudflare (MCP Hosting)",
+          "description": "Workers上でMCPサーバーをホスティングするサービス",
+          "url": "https://developers.cloudflare.com",
+          "domain": "cloudflare.com"
+        },
+        {
+          "name": "FastMCP",
+          "description": "MCP開発フレームワーク・サーバーレジストリ",
+          "url": "https://fastmcp.me",
+          "domain": "fastmcp.me"
+        },
+        {
+          "name": "Smithery",
+          "description": "MCPサーバーレジストリ・マーケットプレイス",
+          "url": "https://smithery.ai",
+          "domain": "smithery.ai"
+        },
+        {
+          "name": "Glama",
+          "description": "MCPサーバー検索・管理プラットフォーム",
+          "url": "https://glama.ai",
+          "domain": "glama.ai"
+        }
+      ]
+    },
+    {
+      "id": "design-ai",
+      "name": "デザインAI",
+      "nameEn": "AI Design",
+      "emoji": "🎨",
+      "color": "#ff9944",
+      "tools": [
+        {
+          "name": "Figma AI",
+          "description": "デザインツールFigmaのAI機能。自動レイアウト・生成",
+          "url": "https://figma.com",
+          "domain": "figma.com"
+        },
+        {
+          "name": "Canva Magic Studio",
+          "description": "CanvaのAI搭載デザインスイート。誰でも使えるAIデザイン",
+          "url": "https://canva.com",
+          "domain": "canva.com"
+        },
+        {
+          "name": "Adobe Firefly",
+          "description": "Adobeのジェネレーティブデザインツール。Creative Cloud統合",
+          "url": "https://adobe.com",
+          "domain": "adobe.com"
+        },
+        {
+          "name": "Galileo AI",
+          "description": "プロンプトからUIデザインを瞬時に生成するAI",
+          "url": "https://galileo.ai",
+          "domain": "galileo.ai"
+        },
+        {
+          "name": "Framer AI",
+          "description": "AIでウェブサイトを自動生成・公開するプラットフォーム",
+          "url": "https://framer.com",
+          "domain": "framer.com"
+        },
+        {
+          "name": "v0 (Vercel)",
+          "description": "VercelのAI UIコンポーネント・ページ生成ツール",
+          "url": "https://v0.dev",
+          "domain": "v0.dev"
+        }
+      ]
+    },
+    {
+      "id": "music-audio",
+      "name": "音楽・オーディオAI",
+      "nameEn": "Music & Audio AI",
+      "emoji": "🎵",
+      "color": "#ff44ff",
+      "tools": [
+        {
+          "name": "Suno",
+          "description": "プロンプトから本格的な楽曲を生成するAI",
+          "url": "https://suno.com",
+          "domain": "suno.com"
+        },
+        {
+          "name": "Udio",
+          "description": "高品質AIミュージック生成プラットフォーム",
+          "url": "https://udio.com",
+          "domain": "udio.com"
+        },
+        {
+          "name": "AIVA",
+          "description": "AIで映画・ゲーム向け楽曲を作曲するシステム",
+          "url": "https://aiva.ai",
+          "domain": "aiva.ai"
+        },
+        {
+          "name": "Boomy",
+          "description": "誰でもAI音楽を即座に作成・公開・収益化できるサービス",
+          "url": "https://boomy.com",
+          "domain": "boomy.com"
+        }
+      ]
+    },
+    {
+      "id": "science-ai",
+      "name": "科学・研究AI",
+      "nameEn": "Science & Research AI",
+      "emoji": "🔬",
+      "color": "#44ff66",
+      "tools": [
+        {
+          "name": "AlphaFold 3 (Google)",
+          "description": "タンパク質・分子構造予測AI第三世代。生命科学革命",
+          "url": "https://deepmind.google",
+          "domain": "deepmind.google"
+        },
+        {
+          "name": "Isomorphic Labs",
+          "description": "AIによる創薬研究・分子設計プラットフォーム",
+          "url": "https://isomorphiclabs.com",
+          "domain": "isomorphiclabs.com"
+        },
+        {
+          "name": "Recursion",
+          "description": "AI駆動の医薬品探索・バイオテクノロジープラットフォーム",
+          "url": "https://recursion.com",
+          "domain": "recursion.com"
+        },
+        {
+          "name": "Insilico Medicine",
+          "description": "AI創薬の先駆けバイオテック企業。臨床試験進行中",
+          "url": "https://insilico.com",
+          "domain": "insilico.com"
+        }
+      ]
+    }
+  ]
+}
