@@ -267,6 +267,18 @@
           "description": "オープンソースAIエージェントプラットフォーム",
           "url": "https://openclaw.ai",
           "domain": "openclaw.ai"
+        },
+        {
+          "name": "NemoClaw",
+          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-gtc-2026-nemoclaw/",
+          "description": "NVIDIA製OpenClawオープンソーススタック。ローカルAIエージェントのセキュリティ・プライバシー最適化",
+          "badge": "NEW"
+        },
+        {
+          "name": "GR00T N2",
+          "url": "https://developer.nvidia.com/groot",
+          "description": "NVIDIAのロボティクス向けVLAモデル。従来比2倍以上の新タスク成功率",
+          "badge": "NEW"
         }
       ]
     },
