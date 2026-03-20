@@ -204,6 +204,12 @@
           "description": "Anthropic製ターミナルベースAIコーディングエージェント",
           "url": "https://docs.anthropic.com/en/docs/claude-code",
           "domain": "anthropic.com"
+        },
+        {
+          "name": "Astral",
+          "description": "Pythonツールメーカー。OpenAIが買収しAIコーディング強化",
+          "url": "https://astral.sh",
+          "domain": "astral.sh"
         }
       ]
     },
@@ -444,6 +450,18 @@
           "description": "GCP上の統合AI/MLプラットフォーム",
           "url": "https://cloud.google.com/vertex-ai",
           "domain": "cloud.google.com"
+        },
+        {
+          "name": "Surf AI",
+          "description": "エンタープライズ向けAIネイティブセキュリティ運用プラットフォーム",
+          "url": "https://surf.ai",
+          "domain": "surf.ai"
+        },
+        {
+          "name": "Project Snowwork",
+          "description": "Snowflakeの自律型エンタープライズAIプラットフォーム",
+          "url": "https://snowflake.com",
+          "domain": "snowflake.com"
         }
       ]
     },
